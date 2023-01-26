@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0EMqH8Xr0e-jeCoIx9Q1XBiskRviRDEjlA&usqp=CAU);
+   
+} */
+
+#head{
+    font-size: 35px;
+    text-align: center;
+    margin-left: 128px;
+    color: whitesmoke;
+}
+label{
+     margin-left: 25px; 
+     font-size: 20px;
+     color: whitesmoke;
+}
+#pass,#user{
+    margin-left: 25px; 
+    width: 365px;
+    height: 40px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+::placeholder{
+    color:lightgray;
+}
+fieldset{
+    margin: 180px 535px; 
+    height: 400px;
+    width: 450px;
+    margin: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background: fixed;
+    background: transparent;
+    z-index: 2;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0EMqH8Xr0e-jeCoIx9Q1XBiskRviRDEjlA&usqp=CAU);
+    filter: blur(1.5px);
+    border: 0.2px solid gray;
+}
+#submit{
+    font-size: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 372px;
+    height: 50px;
+    margin-bottom: 35px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0EMqH8Xr0e-jeCoIx9Q1XBiskRviRDEjlA&usqp=CAU);
+}
+@media  only screen and (min-width: 220px) and (max-width: 580px) {
+    
+    fieldset{
+        margin: 90px 535px; 
+        height: 200px;
+        width: 280px;
+        margin: center;
+        margin-bottom: 25px;
+    }
+}
