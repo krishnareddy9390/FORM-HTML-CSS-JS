@@ -1,64 +1,110 @@
-*{
-    box-sizing: border-box;
+* {
+    padding: 0;
 }
-/* body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0EMqH8Xr0e-jeCoIx9Q1XBiskRviRDEjlA&usqp=CAU);
-   
-} */
 
-#head{
-    font-size: 35px;
+.img {
+    background-image: url(pexels-photo-11718223.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw 50vw;
+}
+
+h2 {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.box {
     text-align: center;
-    margin-left: 128px;
-    color: whitesmoke;
+    padding: 100px;
+
 }
-label{
-     margin-left: 25px; 
-     font-size: 20px;
-     color: whitesmoke;
-}
-#pass,#user{
-    margin-left: 25px; 
-    width: 365px;
-    height: 40px;
-    border-radius: 5px;
-    color: whitesmoke;
-}
-::placeholder{
-    color:lightgray;
-}
-fieldset{
-    margin: 180px 535px; 
-    height: 400px;
-    width: 450px;
-    margin: center;
-    margin-bottom: 50px;
+
+.userinput {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    / border: 35px; /
     border-radius: 15px;
-    background: fixed;
-    background: transparent;
-    z-index: 2;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0EMqH8Xr0e-jeCoIx9Q1XBiskRviRDEjlA&usqp=CAU);
-    filter: blur(1.5px);
-    border: 0.2px solid gray;
+    text-align: left;
+    padding-left: 15px;
 }
-#submit{
-    font-size: 25px;
-    margin-left: 25px;
-    border-radius: 5px;
-    width: 372px;
-    height: 50px;
-    margin-bottom: 35px;
+#error{
+    color: red;
 }
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0EMqH8Xr0e-jeCoIx9Q1XBiskRviRDEjlA&usqp=CAU);
+.password {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    / border: 35px; /
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 15px;
 }
-@media  only screen and (min-width: 220px) and (max-width: 580px) {
+#errors{
+    color: red;
+}
+.sign {
+    width: 250px;
+    height: 35px;
+    / border: 35px; /
+    border-radius: 15px;
+    / padding: 20px; /
+    text-align: center;
+    background-color: pink;
+    cursor: pointer;
+
+}
+#error1{
+    color: red;
+}
+.reme {
+    margin-right: 50px;
+    color: white;
     
-    fieldset{
-        margin: 90px 535px; 
-        height: 200px;
-        width: 280px;
-        margin: center;
-        margin-bottom: 25px;
-    }
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.add {
+    margin: 15px;
+}
+
+.social-links {
+    width: 110px;
+    margin: 5px;
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(151, 126, 126);
+    cursor: pointer;
+    position: relative;
+    font-size: large;
+    height: 30px;
+    background-color: aqua;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.font {
+    position: relative;
+    top: -14px;
+    color: white;
+}
+
+
+.social-links:hover {
+    border: none;
+    
+}
+
+
