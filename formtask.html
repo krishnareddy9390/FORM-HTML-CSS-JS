@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="formtask.css">
+    <title>19th </title>
+    <link rel="stylesheet" href="19th.css">
+   <script src="19th.js"></script>
 </head>
 <body>
-    <div class="form">
-        <form>
-            <fieldset>
-                <label id="head">Login Here</label><br><br>
-                <label for="user">Username :</label><br><br>
-                <input type="text" id="user" placeholder="Enter your name"><br><br>
-                <label for="pass" >Password :</label><br><br>
-                <input type="password" id="pass" placeholder="Password"><br><br><br><br>
-                <input type="submit" value="Login In"  id="submit">  
-            </fieldset>
-        </form>    
+    <div class="img">
+        <form class="box" action="welcom.html" onsubmit="return validate()">
+            <h2>Login #10</h2>
+           <h1>Have an account?</h1>
+           <input type="text" name="" placeholder="Username" id="username" class="userinput" onkeypress="return event.keyCode!=32" ><br>
+           <div id="error">
+        
+           </div>
+           <input type="password" name="" placeholder="Password" id="password" class="password" onkeypress="return event.keyCode!=32" ><br>
+           <div id="errors">
+               </div>
+               <div id="error1">
+            </div>
+           <button class="sign">SIGN IN</button><br>
+           <div class="add">
+           <a href="#" ><small>Forgot Password</small></a>
+           </div><br>
+           <small class="font">-Or Sign In With-</small><br>
+           <div >
+            <button class="social-links"><a href="https://www.facebook.com/login/">Facebook</a></button>
+            <button class="social-links"><a href="https://twitter.com/i/flow/login">Twitter</a></button>
+        </div>
+        </form>
     </div>
 </body>
 </html>
